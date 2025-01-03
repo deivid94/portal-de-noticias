@@ -1,0 +1,22 @@
+
+header {
+    display: grid;
+    width: vw;
+    height: 120px;
+    border: 1px solid blue;
+}
+
+header div:first-child {
+    display: grid;
+    display: inline;
+    align-content: space-around;
+    justify-content: center;
+    width: 1280px;
+    height: 72px;
+    border: 1px solid red;
+}
+
+header div:last-child {
+    border: 1px solid ;
+    display: grid;
+}
