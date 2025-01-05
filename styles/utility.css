@@ -1,0 +1,40 @@
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+grid-auto-flow: column;
+
+}
+
+.grid-flow-2-coluns{
+    grid-template-columns: 2fr 2fr;
+}
+
+.grid-flow-4-coluns{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img-main {
+    max-width: 100%;
+}
+
+.colum-gap {
+    gap: 16px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    img {
+        max-width: 1%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,10 @@
+#featured {
+    
+    margin-top: 40px;
+    gap: 16px;
+    img {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
