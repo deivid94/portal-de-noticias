@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Portal de noticias</title>
 </head>
-<body>
+<body class="container">
     <header class="container">
         <nav id="primary" class="grid grid-flow-col">
             <div>
@@ -40,33 +40,36 @@
 
     <main class="grid container">
         <section id="featured" class="grid grid-flow-col">
-            <div class="colum-gap"> 
+            <figure class="card"> 
                 <img src="/assets/images/Image 01.png" alt="Robotica" class="img-main">
-            </div>
+            </figure>
             <div class="grid grid-flow-2-coluns colum-gap">
-                <div>
-                    <img src="assets/images/Image 02.png" alt="hologramas"  class="img-main">    
-                </div>
-                <div>
+                <figure>
+                    <img src="assets/images/Image 02.png" alt="hologramas"  class="img-main"> 
+                    <figcaption>
+                        <h3>robotica</h3>
+                    </figcaption>   
+                </figure>
+                <figure>
                     <img src="/assets/images/Image 03.png" alt="Internet"  class="img-main">
-                </div>    
-                <div>
+                </figure>    
+                <figure>
                     <img src="/assets/images/Image 04.png" alt="Vestiveis"  class="img-main">
-                </div>
-                <div>
+                </figure>
+                <figure>
                     <img src="/assets/images/Image 05.png" alt="realidade virtual"  class="img-main">
-                </div>
+                </figure>
                 
             </div>
                 
         </section>
 
-        <section id="featured-second" class="grid grid-flow-4-colun">
-            <div>
-                <h1>Veiculo</h1>
+        <section id="weekly" class="">
+            <figure>
+                <h1 class="content-tag">Veiculo</h1>
                 <img src="/assets/images/Image 06.png" alt="">
                 <p></p>
-            </div>
+            </figure>
             <div>
                 <h1>hologramas</h1>
                 <img src="/assets/images/Image 07.png" alt="">

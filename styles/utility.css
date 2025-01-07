@@ -29,12 +29,18 @@ grid-auto-flow: column;
 .colum-gap {
     gap: 16px;
 }
-.card {
-    display: flex;
-    flex-direction: column;
-    img {
-        max-width: 1%;
-        max-height: 100%;
-        object-fit: cover;
-    }
+
+.content-tag {
+    width: 72px;
+    height: 20px;
+    border-radius: 4px;
+    background: var(--brand-color-dark);
+    color: var(--text-color-primary);
+    padding-block: px;
+    padding-inline: px;
+    text-transform: uppercase;
+    justify-content: center;
+    filter: drop-shadow(2px);
+    
+
 }
