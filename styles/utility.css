@@ -19,6 +19,7 @@ grid-auto-flow: column;
     grid-template-columns: 2fr 2fr;
 }
 
+
 .grid-flow-4-coluns{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }

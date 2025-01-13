@@ -1,6 +1,7 @@
 #featured {
     
     margin-top: 40px;
+    margin-bottom: 80px ;
     gap: 16px;
     img {
         object-fit: cover;
@@ -11,7 +12,7 @@
     }
     
      .card {
-        position: relative;
+        position: relative; 
         overflow: hidden;
         &::before{
             content: "";

@@ -4,7 +4,7 @@
     
     padding-block: 24px;
     gap: 16px;
-    border: 1px solid blue;
+   
 
     
     img {
@@ -14,5 +14,14 @@
     figcaption {
         position: relative;
         position: top;
+    }
+
+    header {
+        margin-block: 24px;
+        border: 1px solid green;
+        div:nth-child(2){
+            border: 2px solid red;
+        }
+       
     }
 }
